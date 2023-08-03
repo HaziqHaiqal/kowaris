@@ -167,7 +167,11 @@ span:hover {
 }
 
 .section-padding {
-  padding: 120px 0;
+  padding: 100px 0;
+}
+
+.section-padding-override {
+  padding: 0 0 120px 0;
 }
 
 .section-ptb {
@@ -4855,6 +4859,10 @@ body {
     width: 50% !important;
   }
 
+  .portfolio .gallery .items .item-img {
+    height: 200px;
+  }
+
   footer .item {
     margin-bottom: 30px;
   }
@@ -5123,6 +5131,10 @@ body {
     width: 100% !important;
   }
 
+  .portfolio .gallery .items .item-img {
+    height: 200px;
+  }
+
   .blog-pg .posts .item .content {
     position: relative;
   }
@@ -5240,6 +5252,10 @@ body {
 
   .blog-pg.single .comments-area .item .info .replay {
     top: -25px;
+  }
+
+  .portfolio .gallery .items .item-img {
+    height: 200px;
   }
 }
 
